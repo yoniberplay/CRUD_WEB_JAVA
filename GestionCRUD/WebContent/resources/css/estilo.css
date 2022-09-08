@@ -1,0 +1,72 @@
+body {
+	background-color: #bcf1b5;
+}
+h1 {
+	text-align: center;
+}
+
+
+td[colspan]:not([colspan="1"]) {
+    text-align: center;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 12px 28px;
+}
+
+#editar {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  width: 100%;
+  padding:0;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+table.customTable {
+  width: 100%;
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  border-width: 3pt;
+  border-color: #BCF1B5;
+  border-style: solid;
+  color: #000000;
+}
+
+table.customTable td, table.customTable th {
+  border-width: 3pt;
+  border-color: #BCF1B5;
+  border-style: solid;
+  padding: 5px;
+}
+
+table.customTable thead {
+  background-color: #BCF1B5;
+}
+
+.tablaactulizar{
+  margin: auto;
+  width: 25%;
+  border: 3px solid green;
+}
+
+.center {
+  margin: auto;
+  width: 70%;
+  border: 3px solid green;
+  
+}
